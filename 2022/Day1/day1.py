@@ -1,6 +1,6 @@
 # Day 1
 
-file = open("input.txt", "r")
+file = open("2022/Day1/input.txt", "r")
 elfCals = []
 sum = 0
 
