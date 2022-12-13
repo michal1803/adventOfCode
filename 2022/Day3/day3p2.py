@@ -20,7 +20,18 @@ for x in range(len(lines)//3):
     fStrList = list(fStr)
     sStrList = list(sStr)
     tStrList = list(tStr)
-    diff = set(fStrList) & set(sStrList) & set(tStrList)
-    
+    diff = list(set(fStrList) & set(sStrList) & set(tStrList))
+    char  = str(diff[0])
+
+    if char.isupper():
+        newChar = char.lower()
+        priority = alphabet.index(newChar)
+        priority += 27
+    else:
+        priority = alphabet.index(char)
+        priority +=1
+
+    pSum += priority
+
     counter += 3
-    print(diff)
+    print(pSum)
