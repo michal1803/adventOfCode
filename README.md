@@ -1,3 +1,3 @@
 # adventOfCode
-# First year of doing Advent of Code.
-# Great thing!
+ First year of doing Advent of Code.
+ Great thing!
